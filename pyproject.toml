@@ -1,6 +1,6 @@
 [project]
 name = "trmd"
-version = "0.1.35"
+version = "0.1.36"
 description = "Translate Markdown using OpenAI"
 readme = { file = "README.md", content-type = "text/markdown" }
 license = { file = "LICENSE" }
@@ -9,7 +9,13 @@ authors = [
 ]
 requires-python = ">=3.13"
 dependencies = [
-    "openai>=2.26.0",
+    "openai>=2.28.0",
+]
+
+[project.optional-dependencies]
+test = [
+  "pytest>=9",
+  "pytest-cov>=7",
 ]
 
 [project.scripts]
