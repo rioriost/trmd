@@ -392,7 +392,7 @@ wheels = [
 
 [[package]]
 name = "trmd"
-version = "0.1.36"
+version = "0.1.37"
 source = { editable = "." }
 dependencies = [
     { name = "openai" },

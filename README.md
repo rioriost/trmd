@@ -22,7 +22,7 @@ Translate Markdown using OpenAI.
 - with brew
 
 ```bash
-brew tap rioriost/trmd
+brew tap rioriost/tap
 brew install trmd
 ```
 
@@ -89,17 +89,17 @@ options:
 
 ## Release Notes
 
+### 0.1.37 Release
+- move formula to rioriost/tap
+
 ### 0.1.36 Release
 - Dependency update
-
 
 ### 0.1.35 Release
 - Dependency update
 
-
 ### 0.1.34 Release
 - Dependency update
-
 
 ### 0.1.33 Release
 - Dependency Update

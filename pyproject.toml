@@ -1,6 +1,6 @@
 [project]
 name = "trmd"
-version = "0.1.36"
+version = "0.1.37"
 description = "Translate Markdown using OpenAI"
 readme = { file = "README.md", content-type = "text/markdown" }
 license = { file = "LICENSE" }
@@ -29,5 +29,5 @@ build-backend = "hatchling.build"
 exclude = ["__pycache__", "*.rb", "uv.lock", "dist/.DS_Store", ".envrc"]
 
 [project.urls]
-Homepage = "https://github.com/rioriost/homebrew-trmd"
-Issues = "https://github.com/rioriost/homebrew-trmd/issues"
+Homepage = "https://github.com/rioriost/trmd"
+Issues = "https://github.com/rioriost/trmd/issues"
