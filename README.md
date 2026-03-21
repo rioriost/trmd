@@ -22,8 +22,7 @@ Translate Markdown using OpenAI.
 - with brew
 
 ```bash
-brew tap rioriost/tap
-brew install trmd
+brew install rioriost/tap/trmd
 ```
 
 - with uv
